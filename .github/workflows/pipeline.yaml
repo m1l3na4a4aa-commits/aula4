@@ -13,4 +13,4 @@ jobs:
         run: find . -name "calc.py"
 
       - name: executar codigo
-        run: python src/calc.py
+        run: python ./github/calc.py
