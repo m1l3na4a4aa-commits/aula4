@@ -6,8 +6,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps: 
-      - name:
-        users: actions/checkout@v7
+      - name: copia repositorio
+        uses: actions/checkout@v7
 
       - name: mostrar
-        users:
+        uses: echo $(1s)
