@@ -10,4 +10,4 @@ jobs:
         uses: actions/checkout@v7
 
       - name: mostrar
-        uses: echo $(1s)
+        run: echo $(ls)
