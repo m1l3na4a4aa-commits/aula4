@@ -9,5 +9,8 @@ jobs:
       - name: copia repositorio
         uses: actions/checkout@v7
 
+      - name: acha o arquivo python
+        run: ls -la calc.py
+
       - name: executar codigo
         run: python calc.py
